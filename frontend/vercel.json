@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://staynest-backend-7ihc.onrender.com/api/:path"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "https://staynest-backend-7ihc.onrender.com/images/:path"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
